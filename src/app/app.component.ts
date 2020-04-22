@@ -12,4 +12,7 @@ export class AppComponent  {
   Homedua(){
     this.router.navigate(['/home2']);
   }
+  Homepass(){
+    this.router.navigate(['/home', 3]);
+  }
 }
